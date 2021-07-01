@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel ="stylesheet" href="weather.css">
+</head>
+<body> 
+    <div class = "part1">
+
+        <h2>To Find the Weather</h2><br>
+        <div class = "form">
+            <input type="text" id ="place" placeholder="Enter the city name" required>
+            <button id ="search">Find</button> 
+        </div>
+
+    
+
+        <div class="part2">
+        <div id = "location">
+            <h4>Location</h4>
+        </div>
+        <br><br>
+        <div class="image">
+            <img id="img-icon" src="load2.png">
+            
+            <h4><span id="temp-value">Temperature</span> <span id="temp-unit" >&#176c</span> </h4>
+        </div>
+
+        <div id = "climate">
+            <h4>climate</h4>
+        </div>
+
+
+        </div>
+        
+
+
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
